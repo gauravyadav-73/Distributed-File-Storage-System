@@ -11,5 +11,5 @@
     <description>Distributed File Storage System in Java</description>
     
     <modules>
+         <module>coordinator-node</module>
         
-
