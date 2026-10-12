@@ -7,5 +7,6 @@
     <artifactId>distributed-file-system</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+    <name>Distributed File System</name>
     
 
