@@ -12,4 +12,7 @@
     
     <modules>
          <module>coordinator-node</module>
-        
+         <module>storage-node</module>
+    </modules>
+</project>
+
