@@ -8,5 +8,6 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>Distributed File System</name>
+    <description>Distributed File Storage System in Java</description>
     
 
