@@ -17,3 +17,4 @@ services:
    storage-node-2:  
        build:  ./storage-node
        ports:
+          - "8082:8082"
