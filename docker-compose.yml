@@ -10,3 +10,4 @@ services:
 
    storage-node-1:
        build:  ./storage-node
+       ports:
