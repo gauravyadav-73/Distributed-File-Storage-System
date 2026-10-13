@@ -16,3 +16,4 @@ services:
             SERVER_PORT=8081
    storage-node-2:  
        build:  ./storage-node
+       ports:
