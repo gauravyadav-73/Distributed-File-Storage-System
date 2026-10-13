@@ -9,3 +9,4 @@ services:
             SPRING_PROFILES_ACTIVE=prod
 
    storage-node-1:
+       build:  ./storage-node
