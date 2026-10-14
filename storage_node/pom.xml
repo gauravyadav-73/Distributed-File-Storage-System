@@ -3,3 +3,4 @@
     <parent>
        <groupId>com.dfs<groupId>
        <artifactId>distributed-file-system</artifactId>
+       <version>1.0.0</version>
