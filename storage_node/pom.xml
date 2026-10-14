@@ -8,3 +8,4 @@
     <artifactId>storage-node</artifactId>
     <name>Storage Node</name>
     <parent>
+       <groupId>org.springframework.boot</groupId>
