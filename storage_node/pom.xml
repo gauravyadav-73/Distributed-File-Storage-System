@@ -2,3 +2,4 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
        <groupId>com.dfs<groupId>
+       <artifactId>distributed-file-system</artifactId>
