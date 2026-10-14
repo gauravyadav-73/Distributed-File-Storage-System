@@ -5,3 +5,4 @@
        <artifactId>distributed-file-system</artifactId>
        <version>1.0.0</version>
     </parent>
+    <artifactId>storage-node</artifactId>
