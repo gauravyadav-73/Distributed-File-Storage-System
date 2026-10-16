@@ -17,4 +17,5 @@ services:
 
   storage-node-2:
     build: ./storage-node
+    ports:
     
