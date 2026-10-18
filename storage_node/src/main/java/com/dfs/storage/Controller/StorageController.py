@@ -10,3 +10,4 @@ public class StorageController {
 
   private final NioStorageService storageService;
 
+  public StorageController(NioStorageService storageService) {
