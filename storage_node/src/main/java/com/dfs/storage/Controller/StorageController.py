@@ -17,3 +17,4 @@ public class StorageController {
   @PostMapping("/chunks/{chunkName}")
   public ResponseEntity<String> uploadChunk(@PathVariable String chunkName, @RequestBody byte[] data) {
     try {
+        storageService.saveChunk(chunkName, data);
