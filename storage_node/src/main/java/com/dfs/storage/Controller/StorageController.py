@@ -20,4 +20,5 @@ public class StorageController {
         storageService.saveChunk(chunkName, data);
         return ResponseEntity.ok("Chunk saved successfully: " + chunkName);
     } catch (Exception e) {
+        return ResponseEntity.internalServerError().body("Failed to save chunk: " + e.getMessage());
 
