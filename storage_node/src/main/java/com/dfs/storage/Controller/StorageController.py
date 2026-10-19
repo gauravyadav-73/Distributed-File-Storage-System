@@ -32,5 +32,8 @@ public class StorageController {
       } catch (Exception e) {
             return ResponseEntity.notFound().build();
         }
+    }
+}
+
         
 
