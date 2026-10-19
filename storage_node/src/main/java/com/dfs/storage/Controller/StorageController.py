@@ -29,4 +29,5 @@ public class StorageController {
       try {
           byte[] data = storageService.readChunk(chunkName);
           return ResponseEntity.ok(data);
+      } catch (Exception e) {
 
