@@ -30,4 +30,6 @@ public class StorageController {
           byte[] data = storageService.readChunk(chunkName);
           return ResponseEntity.ok(data);
       } catch (Exception e) {
+            return ResponseEntity.notFound().build();
+        
 
