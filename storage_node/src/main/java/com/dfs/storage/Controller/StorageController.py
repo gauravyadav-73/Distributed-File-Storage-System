@@ -25,5 +25,5 @@ public class StorageController {
   }
 
   @GetMapping("/chunks/{chunkName}")
-  public ResponseEntity<byte[]>    
+  public ResponseEntity<byte[]> getChunk(@PathVariable String chunkName) {   
 
