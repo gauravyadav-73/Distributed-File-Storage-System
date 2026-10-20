@@ -12,3 +12,4 @@ public class NioStorageService {
 
   public NioStorageService() throws IOException {
     Files.createDirectories(storageDir);
+  }
