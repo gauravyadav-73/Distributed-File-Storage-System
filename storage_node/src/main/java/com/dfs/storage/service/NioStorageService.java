@@ -13,3 +13,5 @@ public class NioStorageService {
   public NioStorageService() throws IOException {
     Files.createDirectories(storageDir);
   }
+
+  public void saveChunk(String chunkName, byte[] data) throws IOException {
