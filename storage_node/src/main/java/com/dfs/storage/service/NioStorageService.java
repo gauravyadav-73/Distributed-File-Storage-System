@@ -7,3 +7,4 @@ import java.nio.channels.FileChannel;
 import java.nio.file.*;
 
 @Service
+public class NioStorageService {
