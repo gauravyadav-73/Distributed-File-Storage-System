@@ -11,3 +11,4 @@ public class NioStorageService {
   private final Path storageDir = Paths.get("./data-chunks");
 
   public NioStorageService() throws IOException {
+    Files.createDirectories(storageDir);
