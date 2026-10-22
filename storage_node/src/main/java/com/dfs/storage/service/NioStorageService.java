@@ -27,3 +27,4 @@ public class NioStorageService {
         if (!Files.exists(filePath)) {
             throw new NoSuchFileException("Chunk not found: " + chunkName);
         }
+        try (FileChannel fileChannel = FileChannel.open(filePath, StandardOpenOption.READ)) {
