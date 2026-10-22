@@ -25,3 +25,4 @@ public class NioStorageService {
     public byte[] readChunk(String chunkName) throws IOException {
         Path filePath = storageDir.resolve(chunkName);
         if (!Files.exists(filePath)) {
+            throw new NoSuchFileException("Chunk not found: " + chunkName);
