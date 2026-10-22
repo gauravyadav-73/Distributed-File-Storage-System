@@ -8,3 +8,4 @@ import java.nio.file.*;
 
 @Service
 public class NioStorageService {
+    private final Path storageDir = Paths.get("./data-chunks");
