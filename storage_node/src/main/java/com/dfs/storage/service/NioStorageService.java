@@ -29,3 +29,4 @@ public class NioStorageService {
         }
         try (FileChannel fileChannel = FileChannel.open(filePath, StandardOpenOption.READ)) {
             ByteBuffer buffer = ByteBuffer.allocate((int) fileChannel.size());
+            fileChannel.read(buffer);
