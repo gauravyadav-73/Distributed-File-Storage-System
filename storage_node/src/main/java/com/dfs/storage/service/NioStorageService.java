@@ -26,3 +26,4 @@ public class NioStorageService {
         Path filePath = storageDir.resolve(chunkName);
         if (!Files.exists(filePath)) {
             throw new NoSuchFileException("Chunk not found: " + chunkName);
+        }
