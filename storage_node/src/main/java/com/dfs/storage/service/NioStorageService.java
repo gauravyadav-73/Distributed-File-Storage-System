@@ -17,3 +17,4 @@ public class NioStorageService {
     public void saveChunk(String chunkName, byte[] data) throws IOException {
         Path filePath = storageDir.resolve(chunkName);
         try (FileChannel fileChannel = FileChannel.open(filePath,
+            StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING)) {
