@@ -32,3 +32,4 @@ public class NioStorageService {
             fileChannel.read(buffer);
             return buffer.array();
         }
+    }
