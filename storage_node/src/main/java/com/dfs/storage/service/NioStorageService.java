@@ -31,3 +31,4 @@ public class NioStorageService {
             ByteBuffer buffer = ByteBuffer.allocate((int) fileChannel.size());
             fileChannel.read(buffer);
             return buffer.array();
+        }
