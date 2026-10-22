@@ -20,3 +20,4 @@ public class NioStorageService {
                 StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING)) {
             fileChannel.write(ByteBuffer.wrap(data));
         }
+    }
