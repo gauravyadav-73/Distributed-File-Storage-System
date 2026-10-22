@@ -21,3 +21,5 @@ public class NioStorageService {
             fileChannel.write(ByteBuffer.wrap(data));
         }
     }
+
+    public byte[] readChunk(String chunkName) throws IOException {
