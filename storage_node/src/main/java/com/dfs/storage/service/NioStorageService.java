@@ -28,3 +28,4 @@ public class NioStorageService {
             throw new NoSuchFileException("Chunk not found: " + chunkName);
         }
         try (FileChannel fileChannel = FileChannel.open(filePath, StandardOpenOption.READ)) {
+            ByteBuffer buffer = ByteBuffer.allocate((int) fileChannel.size());
